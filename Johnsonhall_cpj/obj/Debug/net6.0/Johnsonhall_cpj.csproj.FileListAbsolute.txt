@@ -1,0 +1,14 @@
+C:\Users\rjnic\OneDrive\___SCHOOL\_C#\JohnsonHall2_2\Johnsonhall_cpj\bin\Debug\net6.0\Johnsonhall_cpj.exe
+C:\Users\rjnic\OneDrive\___SCHOOL\_C#\JohnsonHall2_2\Johnsonhall_cpj\bin\Debug\net6.0\Johnsonhall_cpj.deps.json
+C:\Users\rjnic\OneDrive\___SCHOOL\_C#\JohnsonHall2_2\Johnsonhall_cpj\bin\Debug\net6.0\Johnsonhall_cpj.runtimeconfig.json
+C:\Users\rjnic\OneDrive\___SCHOOL\_C#\JohnsonHall2_2\Johnsonhall_cpj\bin\Debug\net6.0\Johnsonhall_cpj.dll
+C:\Users\rjnic\OneDrive\___SCHOOL\_C#\JohnsonHall2_2\Johnsonhall_cpj\bin\Debug\net6.0\Johnsonhall_cpj.pdb
+C:\Users\rjnic\OneDrive\___SCHOOL\_C#\JohnsonHall2_2\Johnsonhall_cpj\obj\Debug\net6.0\Johnsonhall_cpj.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rjnic\OneDrive\___SCHOOL\_C#\JohnsonHall2_2\Johnsonhall_cpj\obj\Debug\net6.0\Johnsonhall_cpj.AssemblyInfoInputs.cache
+C:\Users\rjnic\OneDrive\___SCHOOL\_C#\JohnsonHall2_2\Johnsonhall_cpj\obj\Debug\net6.0\Johnsonhall_cpj.AssemblyInfo.cs
+C:\Users\rjnic\OneDrive\___SCHOOL\_C#\JohnsonHall2_2\Johnsonhall_cpj\obj\Debug\net6.0\Johnsonhall_cpj.csproj.CoreCompileInputs.cache
+C:\Users\rjnic\OneDrive\___SCHOOL\_C#\JohnsonHall2_2\Johnsonhall_cpj\obj\Debug\net6.0\Johnsonhall_cpj.dll
+C:\Users\rjnic\OneDrive\___SCHOOL\_C#\JohnsonHall2_2\Johnsonhall_cpj\obj\Debug\net6.0\refint\Johnsonhall_cpj.dll
+C:\Users\rjnic\OneDrive\___SCHOOL\_C#\JohnsonHall2_2\Johnsonhall_cpj\obj\Debug\net6.0\Johnsonhall_cpj.pdb
+C:\Users\rjnic\OneDrive\___SCHOOL\_C#\JohnsonHall2_2\Johnsonhall_cpj\obj\Debug\net6.0\Johnsonhall_cpj.genruntimeconfig.cache
+C:\Users\rjnic\OneDrive\___SCHOOL\_C#\JohnsonHall2_2\Johnsonhall_cpj\obj\Debug\net6.0\ref\Johnsonhall_cpj.dll

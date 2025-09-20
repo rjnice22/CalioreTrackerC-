@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "bA43vnYZSLY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rjnic\\OneDrive\\___SCHOOL\\_C#\\JohnsonHall2_2\\Johnsonhall_cpj\\Johnsonhall_cpj.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rjnic\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\rjnic\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\rjnic\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\rjnic\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}
