@@ -1,3 +1,7 @@
+
+
+https://youtu.be/diRjMsqssqI
+
 # Food Log Application - SQLite Integration
 
 ### Developer
