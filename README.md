@@ -1,77 +1,41 @@
-# CalorieTrackerC-
+# Food Log Application - SQLite Integration
 
-### Author
-Rico Johnson-Hall III  
-**Course:** SDC320 – Software Development Using C#  
-**Assignment:** Calorie Tracker Application  
-**Date:** October 2025  
+### Developer
+**Rico Johnson-Hall**
 
----
-
-## 📖 Overview
-CalorieTrackerC- is a C# application designed to help users record and monitor their daily calorie intake.  
-It demonstrates core programming concepts including object-oriented design, database integration, and file management — all implemented using Visual Studio and SQLite.
+### Date
+09/27/2025
 
 ---
 
-## 🎯 Project Goals
-- Implement **data persistence** using SQLite for storing calorie entries  
-- Apply **object-oriented programming** principles (encapsulation, abstraction, etc.)  
-- Demonstrate **CRUD operations** (Create, Read, Update, Delete) in a real-world context  
-- Provide a simple, menu-driven **console interface** (expandable to WPF or MAUI later)
+## 🧩 Overview
+The **Food Log Application** is a simple C# console project that demonstrates **object-oriented programming** and **database integration** using **SQLite**.  
+It allows users to add, view, update, delete, and total their calorie intake through a menu-driven interface.
 
 ---
 
-## 🧩 File Structure
+## 🏗️ Project Structure
 
-CalorieTrackerC-/
-├── Models/
-│ └── Entry.cs # Defines data structure for each food entry
-├── DataAccess/
-│ └── DatabaseManager.cs # Handles database connection and CRUD logic
-├── Program.cs # Main entry point, user menu and app flow
-├── CalorieTrackerC-.csproj # Visual Studio project configuration
-├── App.config # Connection string and runtime settings (if used)
-└── README.md # Project documentation
-
+| File | Description |
+|------|--------------|
+| **User.cs** | Defines the `User` class, representing a single user in the system. Demonstrates encapsulation and constructor use. |
+| **FoodLog.cs** | Defines the `FoodLog` class, representing an individual food entry. Demonstrates composition, constructors, and encapsulation. |
+| **FoodLogManager.cs** | Handles all CRUD (Create, Read, Update, Delete) operations using **SQL commands**. Demonstrates abstraction and database interaction. |
+| **DatabaseHelper.cs** | Responsible for creating and initializing the SQLite database and tables (`Users` and `FoodLogs`). Demonstrates static utility classes and schema creation. |
+| **Program.cs** | Contains the main program logic and console menu system. Demonstrates user interaction, input handling, and procedural control flow. |
 
 ---
 
 ## 🧠 Key Concepts Demonstrated
-- **Encapsulation:** Data members in `Entry` are private with public getters/setters  
-- **Abstraction:** `DatabaseManager` hides low-level SQL commands behind easy methods  
-- **Composition:** `Program.cs` uses `DatabaseManager` and `Entry` together to build functionality  
-- **Persistence:** SQLite provides long-term data storage within a lightweight local DB file  
-- **Error Handling:** Try/catch blocks prevent crashes during database operations
+- **Encapsulation**: Each class protects its internal data with private setters and exposes only necessary methods.
+- **Abstraction**: Database logic is separated into the `DatabaseHelper` and `FoodLogManager` classes.
+- **Composition**: The `FoodLogManager` works with `FoodLog` and `User` objects to form a cohesive system.
+- **Data Persistence**: All information is stored in a local `FoodLogs.db` SQLite file.
+- **CRUD Operations**: Add, read, update, and delete entries through SQL commands.
 
 ---
 
-## ⚙️ Technologies Used
-- **Language:** C# (.NET 8.0 compatible)  
-- **IDE:** Visual Studio 2022  
-- **Database:** SQLite (via System.Data.SQLite)  
-- **Platform:** Console Application  
-
----
-
-## 🧪 How to Run
-1. Open `CalorieTrackerC-.sln` in Visual Studio  
-2. Build the solution (Ctrl + Shift + B)  
-3. Run the app (Ctrl + F5)  
-4. Follow the menu prompts to add, view, update, or delete entries  
-
-A database file named `calorieTracker.db` will be automatically created in the project’s output folder.
-
----
-
-## 🔍 Future Enhancements
-- Convert into a .NET MAUI app with graphical UI  
-- Add login profiles and daily goal tracking  
-- Integrate charts for calorie visualization  
-- Enable cloud sync with user accounts  
-
----
-
-## 💬 Author’s Note
-This project served as a hands-on demonstration of connecting theoretical OOP concepts with practical database operations. It lays the groundwork for future development into a mobile or cross-platform health-tracking app.
+## 🖥️ How to Run
+1. Open the project in **Visual Studio** or **VS Code**.
+2. Ensure the **System.Data.SQLite** NuGet package is installed:
 
